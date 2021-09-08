@@ -1,0 +1,18 @@
+.featureBoxes {
+  background-color: #f8faff;
+  padding: 150px 0;
+  padding-top: 90px;
+}
+
+@media (max-width: 600px) {
+  .featureBoxes {
+    padding: 70px 0;
+  }
+}
+
+.grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}

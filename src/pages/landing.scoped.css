@@ -1,0 +1,45 @@
+.bubble {
+  width: 16.25vh;
+  height: 16.25vh;
+  border-radius: 50%;
+  background-color: #e8effc;
+  animation: scale 10s ease infinite;
+  position: absolute;
+  left: 5.8%;
+  top: 26.8%;
+  z-index: -1;
+}
+
+.bubble2 {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: #e8effc;
+  animation: scale 10s ease infinite;
+  position: absolute;
+  left: 21.8%;
+  top: 18%;
+  z-index: -1;
+}
+
+.bubble3 {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  background-color: #e8effc;
+  animation: scale 10s ease infinite;
+  position: absolute;
+  bottom: 25.8%;
+  left: 32%;
+  z-index: -1;
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.3);
+  }
+}

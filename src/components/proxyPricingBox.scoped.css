@@ -1,0 +1,89 @@
+.proxy-pricing-box {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #f8faff;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #6f84ad;
+  margin-right: 10px;
+}
+
+.specs {
+  padding: 28px 0;
+  padding-bottom: 16px !important;
+}
+
+.spec {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: #6f84ad;
+  font-family: 600;
+}
+
+.spec:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.nostock .subnet {
+  background-color: #dbe3f5 !important;
+  color: #9ca8c3;
+}
+
+.nostock .num {
+  color: #000e3a;
+}
+
+.subnet {
+  background-color: #7b94e5;
+  height: 118px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 42px;
+}
+
+.num {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 32px;
+}
+
+.subnet {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.padding-section {
+  padding: 0 42px;
+  padding-bottom: 2rem;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.currency {
+  color: #7b94e5;
+}
+
+.price-num {
+  color: #19348d;
+  margin-right: 16px;
+}
+
+.type {
+  color: #9ca8c3;
+}
+
+.select {
+  margin-bottom: 0.5rem;
+}

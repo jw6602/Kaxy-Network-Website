@@ -1,0 +1,85 @@
+.contact {
+  margin-bottom: 150px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6f84ad;
+  margin-bottom: 0.5rem;
+}
+
+::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6f84ad;
+}
+
+input {
+  background-color: #ecf2fe;
+  border-radius: 7px;
+  border: 1px solid #d0daef;
+  outline: none;
+  height: 53px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6f84ad;
+  padding-left: 1.7rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+form p {
+  height: 1.3rem;
+  margin: 2px 0;
+  margin-bottom: 6px;
+  font-family: inherit;
+  text-align: center;
+  color: rgb(250, 52, 52);
+  font-weight: 600;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  background-color: #ecf2fe;
+  border-radius: 7px;
+  border: 1px solid #d0daef;
+  resize: none;
+  transition: all 0.3s ease;
+  height: 345px;
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  padding-top: 16px;
+  font-weight: 500;
+  color: #6f84ad;
+  padding-left: 2rem;
+  font-family: inherit;
+}
+
+.contact a {
+  color: #7b94e5;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 0.8rem;
+  display: block;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.contactform {
+  padding: 54px 74px;
+  background-color: #f8faff;
+  border-radius: 15px;
+  margin-top: 3rem;
+}

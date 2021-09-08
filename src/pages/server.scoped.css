@@ -1,0 +1,13 @@
+.server .mob-only {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .server .mob-only {
+    display: block;
+  }
+
+  .server .server-pricing {
+    display: none;
+  }
+}

@@ -1,0 +1,126 @@
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.front-page .primary-text {
+  max-width: 18ch;
+}
+
+.front-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .imgcontainer {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .mob-center {
+    text-align: center;
+  }
+
+  .m-b {
+    margin-bottom: 4rem;
+  }
+}
+
+.imgcontainer img {
+  width: 80%;
+}
+
+.dashimg img {
+  width: 95%;
+}
+
+@media (max-width: 800px) {
+  .front-page {
+    padding: 0 3rem !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .front-page .primary-text {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .front-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .front-page .primary-text {
+    font-size: 30px !important;
+  }
+
+  .front-page .sec-text {
+    font-size: 18px !important;
+  }
+}
+
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+
+.slide-fwd-center {
+  -webkit-animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@media (max-width: 600px) {
+  .imgcontainer img {
+    max-height: 225px;
+  }
+}

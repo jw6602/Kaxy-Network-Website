@@ -1,0 +1,12 @@
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 352px));
+  justify-content: center;
+  grid-gap: 2rem;
+  margin-top: 2.5rem;
+  align-items: center;
+}
+
+.products {
+  margin-bottom: 150px;
+}

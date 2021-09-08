@@ -1,0 +1,26 @@
+button {
+  background-color: #19348d;
+  border-radius: 7px;
+  color: #fff !important;
+  height: 53px;
+  font-size: 18px !important;
+  width: 100%;
+  font-family: "Roboto" !important;
+  font-weight: 500;
+}
+
+.no-stock {
+  background-color: #dbe3f5 !important;
+  color: #9ca8c3 !important;
+  position: static !important;
+  cursor: not-allowed;
+}
+
+.no-stock:hover {
+  transform: none !important;
+  color: #9ca8c3 !important;
+}
+
+.no-stock::after {
+  background-color: #dbe3f5 !important;
+}

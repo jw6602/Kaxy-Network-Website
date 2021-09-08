@@ -1,0 +1,110 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.text {
+  color: #6f84ad;
+  font-size: 21px;
+  font-weight: 500;
+  max-width: 46ch;
+}
+
+.cta {
+  font-size: 14px;
+  color: #fff;
+  border-radius: 20px;
+  min-height: 294px;
+  width: 100%;
+  max-width: 452px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to bottom, #373737, 5%, #222);
+}
+
+.tail {
+  animation: toAndFro 1.5s linear infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes toAndFro {
+  0%,
+  100% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+}
+
+.red {
+  margin-right: 6px;
+  background-color: #f2454f;
+}
+
+.yel {
+  margin-right: 6px;
+  background-color: #f4bf4f;
+}
+
+.gre {
+  background-color: #61c554;
+}
+
+.circle {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+.circles {
+  display: flex;
+  padding: 14px 16px;
+}
+
+.top-section {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1.3rem;
+}
+
+.center {
+  text-align: center;
+  color: #9a9a9a;
+}
+
+.bottom-section {
+  padding-left: 1.5rem;
+}
+
+.pl {
+  padding-left: 0.5rem;
+}
+
+.twitter span {
+  color: #759ea0;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  font-weight: 400;
+}
+
+.twitter {
+  margin-top: 0.7rem;
+  padding-left: 10px;
+}
+
+.logoimg {
+  position: absolute;
+  bottom: -3rem;
+  right: -0.3rem;
+}
+
+.left-section {
+  position: relative;
+  max-width: 460px;
+  margin-right: 1.5rem;
+  width: 100%;
+}

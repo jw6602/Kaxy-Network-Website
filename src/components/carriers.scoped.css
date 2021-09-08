@@ -1,0 +1,64 @@
+.connectivity {
+  position: relative;
+  padding: 146px 0;
+  background-image: url("../assets/carrierbg.png");
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .connectivity {
+    padding: 0;
+  }
+}
+
+.connectivity::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.images1 img {
+  width: 100%;
+}
+
+.images1 {
+  margin-top: 4rem;
+}
+
+.connectivity .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 16px;
+}
+
+.connectivity .images div {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.connectivity .images img {
+  width: 80%;
+}
+
+.connectivity .mob-only {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .connectivity .mob-only {
+    display: block;
+  }
+
+  .connectivity .mob-only .images {
+    margin-top: 3rem;
+  }
+
+  .pc-only {
+    display: none;
+  }
+}

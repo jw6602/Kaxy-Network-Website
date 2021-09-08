@@ -1,0 +1,31 @@
+.server-headers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1.3fr 75px;
+  font-size: 21px;
+  padding: 10px 28px;
+  font-weight: 500;
+  color: #7b94e5;
+  border-bottom: 2px solid #e2e7f1;
+}
+
+.server-pricing {
+  border: 2px solid #e2e7f1;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 4rem;
+  margin-bottom: 150px;
+}
+
+.mob-only-pricing {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .server .server-pricing {
+    display: none;
+  }
+
+  .mob-only-pricing {
+    display: block;
+  }
+}
